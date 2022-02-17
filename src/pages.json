@@ -1,0 +1,55 @@
+{
+    "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path": "pages/index/index",
+            "style": {
+                "navigationBarTitleText": "爱国主义教育"
+            }
+        },
+        {
+            "path": "pages/demo/index",
+            "style": {
+                "navigationBarTitleText": "爱国主义教育"
+            }
+        },
+        {
+            "path": "pages/list/index",
+            "style": {
+                "navigationBarTitleText": "爱国主义教育"
+            }
+        },
+        {
+            "path": "pages/detail/index",
+            "style": {
+                "navigationBarTitleText": "爱国主义教育"
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "爱国主义教育",
+        "navigationBarBackgroundColor": "#ff4c45",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+        "color": "#707070",
+        "selectedColor": "#ff4c45",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "height": "50px",
+        "fontSize": "10px",
+        "iconWidth": "24px",
+        "spacing": "3px",
+        "list": [{
+            "pagePath": "pages/index/index",
+            "iconPath": "static/home.png",
+            "selectedIconPath": "static/home_active.png",
+            "text": "首页"
+        }, {
+            "pagePath": "pages/list/index",
+            "iconPath": "static/list.png",
+            "selectedIconPath": "static/list_active.png",
+            "text": "列表"
+        }]
+    }
+}
