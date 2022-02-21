@@ -1,5 +1,7 @@
 # uni-app-frame
 
+> node版本需大于12.0.0版本
+
 ```
 // 1. 全局安装：
 npm install -g @vue/cli
